@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fed-rates-wayback"
+version = "0.1.0"
+description = "Point-in-time Fed decision replay harness for Polymarket and macro data."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "duckdb>=1.0.0",
+  "fastapi>=0.115.0",
+  "typer>=0.12.0",
+  "PyYAML>=6.0.0",
+  "uvicorn>=0.30.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx>=0.27.0",
+  "pytest>=8.0.0",
+]
+
+[project.scripts]
+frp = "frp.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["frp*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,103 @@
+{
+  "observations": [
+    {
+      "series_id": "DFEDTARU",
+      "observation_date": "2026-03-18",
+      "value": 3.75,
+      "realtime_start": "2026-03-18",
+      "realtime_end": "2026-04-29",
+      "known_at": "2026-03-18T18:00:00Z",
+      "source_published_at": "2026-03-18T18:00:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/DFEDTARL"
+    },
+    {
+      "series_id": "DFEDTARL",
+      "observation_date": "2026-03-18",
+      "value": 3.5,
+      "realtime_start": "2026-03-18",
+      "realtime_end": "2026-04-29",
+      "known_at": "2026-03-18T18:00:00Z",
+      "source_published_at": "2026-03-18T18:00:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/DFEDTARU"
+    },
+    {
+      "series_id": "DFEDTARU",
+      "observation_date": "2026-04-30",
+      "value": 3.75,
+      "realtime_start": "2026-04-30",
+      "realtime_end": "9999-12-31",
+      "known_at": "2026-04-30T21:00:00Z",
+      "source_published_at": "2026-04-30T21:00:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/DFEDTARU"
+    },
+    {
+      "series_id": "DFEDTARL",
+      "observation_date": "2026-04-30",
+      "value": 3.5,
+      "realtime_start": "2026-04-30",
+      "realtime_end": "9999-12-31",
+      "known_at": "2026-04-30T21:00:00Z",
+      "source_published_at": "2026-04-30T21:00:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/DFEDTARL"
+    },
+    {
+      "series_id": "FEDFUNDS",
+      "observation_date": "2026-03-01",
+      "value": 3.63,
+      "realtime_start": "2026-04-01",
+      "realtime_end": "9999-12-31",
+      "known_at": "2026-04-01T13:00:00Z",
+      "source_published_at": "2026-04-01T13:00:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/FEDFUNDS"
+    },
+    {
+      "series_id": "UNRATE",
+      "observation_date": "2026-03-01",
+      "value": 4.1,
+      "realtime_start": "2026-04-03",
+      "realtime_end": "9999-12-31",
+      "known_at": "2026-04-03T12:30:00Z",
+      "source_published_at": "2026-04-03T12:30:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/UNRATE"
+    },
+    {
+      "series_id": "PAYEMS",
+      "observation_date": "2026-03-01",
+      "value": 160560,
+      "realtime_start": "2026-04-03",
+      "realtime_end": "9999-12-31",
+      "known_at": "2026-04-03T12:30:00Z",
+      "source_published_at": "2026-04-03T12:30:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/PAYEMS"
+    },
+    {
+      "series_id": "CPIAUCSL",
+      "observation_date": "2026-03-01",
+      "value": 326.8,
+      "realtime_start": "2026-04-15",
+      "realtime_end": "9999-12-31",
+      "known_at": "2026-04-15T12:30:00Z",
+      "source_published_at": "2026-04-15T12:30:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/CPIAUCSL"
+    },
+    {
+      "series_id": "CPIAUCSL",
+      "observation_date": "2026-04-01",
+      "value": 327.4,
+      "realtime_start": "2026-05-13",
+      "realtime_end": "9999-12-31",
+      "known_at": "2026-05-13T12:30:00Z",
+      "source_published_at": "2026-05-13T12:30:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/CPIAUCSL"
+    }
+  ]
+}

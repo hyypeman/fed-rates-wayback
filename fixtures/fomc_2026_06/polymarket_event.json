@@ -1,0 +1,60 @@
+{
+  "event_id": "fomc_2026_06",
+  "event_slug": "fed-decision-june-2026",
+  "title": "Fed Decision in June 2026",
+  "known_at": "2026-04-30T19:59:00Z",
+  "source_url": "https://gamma-api.polymarket.com/events?slug=fed-decision-june-2026",
+  "neg_risk_market_id": "0xfixture-june-2026",
+  "markets": [
+    {
+      "normalized_outcome": "no_change",
+      "question": "No change in Fed interest rates after June 2026 meeting?",
+      "market_slug": "no-change-in-fed-interest-rates-after-june-2026-meeting",
+      "yes_token_id": "pm_yes_nochange_june2026",
+      "no_token_id": "pm_no_nochange_june2026",
+      "yes_price": 0.71,
+      "price_timestamp": "2026-04-30T19:59:00Z"
+    },
+    {
+      "normalized_outcome": "cut_25",
+      "question": "Fed decreases interest rates by 25 bps after June 2026 meeting?",
+      "market_slug": "fed-decreases-interest-rates-by-25-bps-after-june-2026-meeting",
+      "yes_token_id": "pm_yes_cut25_june2026",
+      "no_token_id": "pm_no_cut25_june2026",
+      "yes_price": 0.2,
+      "price_timestamp": "2026-04-30T19:59:00Z"
+    },
+    {
+      "normalized_outcome": "hike_25",
+      "question": "Fed increases interest rates by 25 bps after June 2026 meeting?",
+      "market_slug": "fed-increases-interest-rates-by-25-bps-after-june-2026-meeting",
+      "yes_token_id": "pm_yes_hike25_june2026",
+      "no_token_id": "pm_no_hike25_june2026",
+      "yes_price": 0.04,
+      "price_timestamp": "2026-04-30T19:59:00Z"
+    },
+    {
+      "normalized_outcome": "cut_50_plus",
+      "question": "Fed decreases interest rates by 50+ bps after June 2026 meeting?",
+      "market_slug": "fed-decreases-interest-rates-by-50-bps-after-june-2026-meeting",
+      "yes_token_id": "pm_yes_cut50_june2026",
+      "no_token_id": "pm_no_cut50_june2026",
+      "yes_price": 0.03,
+      "price_timestamp": "2026-04-30T19:59:00Z"
+    },
+    {
+      "normalized_outcome": "hike_50_plus",
+      "question": "Fed increases interest rates by 50+ bps after June 2026 meeting?",
+      "market_slug": "fed-increases-interest-rates-by-50-bps-after-june-2026-meeting",
+      "yes_token_id": "pm_yes_hike50_june2026",
+      "no_token_id": "pm_no_hike50_june2026",
+      "yes_price": 0.01,
+      "price_timestamp": "2026-04-30T19:59:00Z"
+    }
+  ],
+  "resolution": {
+    "final_outcome": "no_change",
+    "known_at": "2026-06-17T18:05:00Z",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  }
+}

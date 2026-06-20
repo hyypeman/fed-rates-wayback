@@ -1,0 +1,7 @@
+* [Home](Home.md)
+* [What the project does](What-the-project-does.md)
+* [How the pipeline works](How-the-pipeline-works.md)
+* [Data sources](Data-sources.md)
+* [CLI usage](CLI-usage.md)
+* [Audit and reproducibility](Audit-and-reproducibility.md)
+* [Limitations and roadmap](Limitations-and-roadmap.md)

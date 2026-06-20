@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "document_id": "gdelt_fed_rates_2026_04_29_001",
+      "title": "Markets expect Fed to stay patient before June meeting",
+      "document_type": "news_article",
+      "url": "https://example.com/markets-fed-patient-june-2026",
+      "source_url": "https://example.com/markets-fed-patient-june-2026",
+      "source_published_at": "2026-04-29T14:30:00Z",
+      "seendate": "2026-04-29T14:45:00Z",
+      "known_at": "2026-04-29T14:45:00Z",
+      "temporal_precision": "datetime",
+      "snippet": "Rates traders largely expected the Federal Reserve to hold policy steady while waiting for more inflation and labor-market evidence."
+    },
+    {
+      "document_id": "gdelt_fed_rates_2026_05_15_001",
+      "title": "Fresh inflation data complicates Fed outlook",
+      "document_type": "news_article",
+      "url": "https://example.com/inflation-fed-outlook-may-2026",
+      "source_url": "https://example.com/inflation-fed-outlook-may-2026",
+      "source_published_at": "2026-05-15T15:00:00Z",
+      "seendate": "2026-05-15T15:10:00Z",
+      "known_at": "2026-05-15T15:10:00Z",
+      "temporal_precision": "datetime",
+      "snippet": "Post-cutoff inflation news is intentionally excluded from the April replay evidence packet."
+    }
+  ]
+}

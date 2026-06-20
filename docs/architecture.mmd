@@ -1,0 +1,46 @@
+flowchart LR
+  subgraph "Sources"
+    PM["Polymarket Gamma/CLOB-shaped data"]
+    FRED["FRED/ALFRED vintaged macro"]
+    RATES["Rates and yields: DGS2, DGS10, T10YIE, SOFR, EFFR"]
+    FED["Federal Reserve official documents"]
+    NEWS["GDELT/news context"]
+  end
+
+  subgraph "Ingestion"
+    FETCH["frp fetch"]
+    RAW["Immutable raw artifacts"]
+    MANIFEST["Run manifest: URL, query, hash, retrieved_at, license"]
+  end
+
+  subgraph "Lakehouse Core"
+    BUILD["frp build"]
+    DUCK["DuckDB normalized tables"]
+    SNAP["frp snapshot: known_at <= as_of"]
+    AUDIT["frp audit"]
+  end
+
+  subgraph "Prediction And Review"
+    PRED["frp predict"]
+    SCORE["frp score"]
+    REPORTS["Markdown reports and evidence bundle"]
+    API["frp serve: evidence API"]
+  end
+
+  PM --> FETCH
+  FRED --> FETCH
+  RATES --> FETCH
+  FED --> FETCH
+  NEWS --> FETCH
+  FETCH --> RAW
+  FETCH --> MANIFEST
+  RAW --> BUILD
+  MANIFEST --> BUILD
+  BUILD --> DUCK
+  DUCK --> SNAP
+  SNAP --> AUDIT
+  SNAP --> PRED
+  PRED --> SCORE
+  AUDIT --> REPORTS
+  SCORE --> REPORTS
+  REPORTS --> API

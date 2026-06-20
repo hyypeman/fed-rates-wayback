@@ -1,0 +1,103 @@
+{
+  "observations": [
+    {
+      "series_id": "DGS2",
+      "observation_date": "2026-04-29",
+      "value": 3.74,
+      "known_at": "2026-04-29T20:15:00Z",
+      "source_published_at": "2026-04-29T20:15:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/DGS2"
+    },
+    {
+      "series_id": "DGS10",
+      "observation_date": "2026-04-29",
+      "value": 4.2,
+      "known_at": "2026-04-29T20:15:00Z",
+      "source_published_at": "2026-04-29T20:15:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/DGS10"
+    },
+    {
+      "series_id": "T10YIE",
+      "observation_date": "2026-04-29",
+      "value": 2.35,
+      "known_at": "2026-04-29T20:15:00Z",
+      "source_published_at": "2026-04-29T20:15:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/T10YIE"
+    },
+    {
+      "series_id": "DGS2",
+      "observation_date": "2026-04-30",
+      "value": 3.72,
+      "known_at": "2026-04-30T20:15:00Z",
+      "source_published_at": "2026-04-30T20:15:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/DGS2"
+    },
+    {
+      "series_id": "DGS10",
+      "observation_date": "2026-04-30",
+      "value": 4.18,
+      "known_at": "2026-04-30T20:15:00Z",
+      "source_published_at": "2026-04-30T20:15:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/DGS10"
+    },
+    {
+      "series_id": "T10YIE",
+      "observation_date": "2026-04-30",
+      "value": 2.34,
+      "known_at": "2026-04-30T20:15:00Z",
+      "source_published_at": "2026-04-30T20:15:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/T10YIE"
+    },
+    {
+      "series_id": "SOFR",
+      "observation_date": "2026-04-29",
+      "value": 3.64,
+      "known_at": "2026-04-30T12:00:00Z",
+      "source_published_at": "2026-04-30T12:00:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/SOFR"
+    },
+    {
+      "series_id": "EFFR",
+      "observation_date": "2026-04-29",
+      "value": 3.63,
+      "known_at": "2026-04-30T13:00:00Z",
+      "source_published_at": "2026-04-30T13:00:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/EFFR"
+    },
+    {
+      "series_id": "SOFR",
+      "observation_date": "2026-04-30",
+      "value": 3.65,
+      "known_at": "2026-05-01T12:00:00Z",
+      "source_published_at": "2026-05-01T12:00:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/SOFR"
+    },
+    {
+      "series_id": "EFFR",
+      "observation_date": "2026-04-30",
+      "value": 3.63,
+      "known_at": "2026-05-01T13:00:00Z",
+      "source_published_at": "2026-05-01T13:00:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/EFFR"
+    },
+    {
+      "series_id": "DGS2",
+      "observation_date": "2026-05-01",
+      "value": 3.68,
+      "known_at": "2026-05-01T20:15:00Z",
+      "source_published_at": "2026-05-01T20:15:00Z",
+      "temporal_precision": "datetime",
+      "source_url": "https://fred.stlouisfed.org/series/DGS2"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "documents": [
+    {
+      "document_id": "fomc_statement_2026_03_18",
+      "title": "FOMC Statement - March 18, 2026",
+      "document_type": "statement",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+      "known_at": "2026-03-18T18:00:00Z",
+      "source_published_at": "2026-03-18T18:00:00Z",
+      "temporal_precision": "datetime",
+      "text": "The Committee decided to maintain the target range for the federal funds rate at 3.5 to 3.75 percent. Inflation remains somewhat elevated. The Committee will carefully assess incoming data."
+    },
+    {
+      "document_id": "implementation_note_2026_03_18",
+      "title": "Implementation Note - March 18, 2026",
+      "document_type": "implementation_note",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a1.htm",
+      "known_at": "2026-03-18T18:05:00Z",
+      "source_published_at": "2026-03-18T18:05:00Z",
+      "temporal_precision": "datetime",
+      "text": "The Board of Governors voted to maintain the interest rate paid on reserve balances at 3.65 percent, effective March 19, 2026."
+    },
+    {
+      "document_id": "fomc_statement_2026_06_17",
+      "title": "FOMC Statement - June 17, 2026",
+      "document_type": "statement",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+      "known_at": "2026-06-17T18:00:00Z",
+      "source_published_at": "2026-06-17T18:00:00Z",
+      "temporal_precision": "datetime",
+      "resolution_outcome": "no_change",
+      "text": "The Committee decided to maintain the target range for the federal funds rate at 3.5 to 3.75 percent."
+    }
+  ]
+}

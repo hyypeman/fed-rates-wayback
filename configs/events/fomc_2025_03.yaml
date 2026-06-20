@@ -1,0 +1,31 @@
+event_id: fomc_2025_03
+event_slug: fed-decision-march-2025
+title: "Fed Decision in March 2025"
+evaluation_mode: resolved_replay
+target_meeting_start: "2025-03-18"
+target_meeting_end: "2025-03-19"
+as_of_default: "2025-03-18T20:00:00Z"
+final_outcome: no_change
+fixture_dir: fixtures/fomc_2026_06
+fixture_captured_at: "2026-06-20T18:00:00Z"
+live_alfred:
+  observation_start: "2025-01-01"
+  observation_end: "2025-03-18"
+  realtime_start: "2025-01-01"
+  series_groups:
+    alfred_observations: [DFEDTARU, DFEDTARL, FEDFUNDS, UNRATE, PAYEMS, CPIAUCSL]
+    rates_observations: [DGS2, DGS10, T10YIE]
+source_bundle: [polymarket, fred_alfred, rates_yields, federal_reserve, gdelt_news]
+normalized_outcomes: &default_outcomes
+  no_change: {market_slug: no-change-in-fed-interest-rates-after-meeting, yes_token_id: pm_yes_nochange_june2026}
+  hike_25: {market_slug: fed-increases-interest-rates-by-25-bps-after-meeting, yes_token_id: pm_yes_hike25_june2026}
+  cut_25: {market_slug: fed-decreases-interest-rates-by-25-bps-after-meeting, yes_token_id: pm_yes_cut25_june2026}
+  hike_50_plus: {market_slug: fed-increases-interest-rates-by-50-bps-after-meeting, yes_token_id: pm_yes_hike50_june2026}
+  cut_50_plus: {market_slug: fed-decreases-interest-rates-by-50-bps-after-meeting, yes_token_id: pm_yes_cut50_june2026}
+  other_or_unmapped: {market_slug: null, yes_token_id: null}
+artifacts: &default_artifacts
+  - {source_family: polymarket, local_name: polymarket_event.json, source_url: "fixture://polymarket/gamma/events/fed-decision", source_query: "slug=fed-decision", license_class: public-web, media_type: application/json}
+  - {source_family: fred_alfred, local_name: alfred_observations.json, source_url: "fixture://api.stlouisfed.org/fred/series/observations", source_query: "series_id=DFEDTARU,DFEDTARL,FEDFUNDS,UNRATE,PAYEMS,CPIAUCSL", license_class: public-api, media_type: application/json}
+  - {source_family: rates_yields, local_name: rates_observations.json, source_url: "fixture://api.stlouisfed.org/fred/series/observations", source_query: "series_id=DGS2,DGS10,T10YIE", license_class: public-api, media_type: application/json}
+  - {source_family: federal_reserve, local_name: fed_documents.json, source_url: "fixture://federalreserve.gov/monetarypolicy/fomc-statements", source_query: "meeting=fomc", license_class: public-web, media_type: application/json}
+  - {source_family: gdelt_news, local_name: gdelt_articles.json, source_url: "fixture://api.gdeltproject.org/api/v2/doc/doc", source_query: "query=Federal Reserve rates", license_class: public-web-index, media_type: application/json}
