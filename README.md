@@ -180,6 +180,7 @@ Rows after the cutoff can be stored as resolution facts or future examples, but 
 
 - [Wiki home](docs/wiki/Home.md)
 - [Implementation plan](docs/plans/implementation_plan.md)
+- [V2 GDELT-forward implementation plan](v2_plan.md)
 - [Roadmap](docs/plans/roadmap.md)
 - [Requirements coverage](docs/requirements_coverage.md)
 - [Event configuration guide](docs/event_configuration.md)
